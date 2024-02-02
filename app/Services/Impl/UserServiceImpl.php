@@ -8,7 +8,8 @@ class UserServiceImpl implements UserService
 {
 
     private array $users = [
-        "ade" => "rahasia"
+        "ade" => "rahasia",
+        "kurnia" => "123"
     ];
 
     function login(string $user, string $password): bool
